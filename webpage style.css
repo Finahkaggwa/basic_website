@@ -1,0 +1,32 @@
+body {
+    background-color: #F72585;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    background-color: #B5179E;
+}
+
+.imgDiv1 {
+    margin-left: auto;
+    margin-right: 25%
+}
+
+.header-cont {
+    background-color: aquamarine;
+}
+
+@media (min-width:760px) {
+    body {
+        background-color: cornsilk;
+    }
+
+    .header-cont {
+        display: flex;
+    }
+}
+.name{
+    margin-left: 30% ;
+    margin-top: 20px;
+}
