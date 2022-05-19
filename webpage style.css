@@ -1,5 +1,7 @@
 body {
-    background-color: #F72585;
+    background-color: lightgreen;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 h1 {
@@ -8,13 +10,13 @@ h1 {
     background-color: #B5179E;
 }
 
-.imgDiv1 {
-    margin-left: auto;
-    margin-right: 25%
+.img-1 {
+    padding: 1em;
 }
 
 .header-cont {
     background-color: aquamarine;
+    width: 60%;
 }
 
 @media (min-width:760px) {
@@ -25,13 +27,33 @@ h1 {
     .header-cont {
         display: flex;
     }
+
+    .Rome-city {
+        display: flex;
+    }
 }
-.name{
-    margin-left: 30% ;
+
+
+table,
+th,
+td {
+    border: 2px solid black;
+    text-align: center;
+    /* width: 50%;*/
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
 }
 
-body,index.html {
-background-color: aquamarine;
+.space {
+    margin-bottom: 20px;
+}
 
+.text-1 {
+    margin-left: 10px;
 }
