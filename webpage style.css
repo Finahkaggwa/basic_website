@@ -1,5 +1,5 @@
 body {
-    background-color: #90ee9054;
+    background-color: #d9ed9253;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -7,18 +7,22 @@ body {
 h1 {
     text-align: center;
     font-family: monospace;
-    background-color: #B5179E;
-}
-
-.Profile {
-    padding: 1em;
+    background-color: burlywood;
 }
 
 .header-cont {
-    background-color: aquamarine;
+    background-color: #ccd5ae;
+    /*background-color: aquamarine;*/
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+    border-radius: 3em;
+    padding: 1em ;
+    
+}
+
+.name{
+       padding-right: 2em;
 }
 
 @media (min-width:760px) {
@@ -75,4 +79,16 @@ table {
 
 .img-2 {
     padding-right: 2em;
+}
+
+.link{
+background-color:#619b8a ;
+width: 15em;
+margin: 1em;
+padding: 1em;
+border-radius: 0.5em;
+}
+
+.link:hover{
+background-color: aqua;
 }
